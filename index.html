@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <title>Callback Piazza</title>
+        <meta charset="utf-8" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" />
+    </head>
+
+    <body>
+
+
+
+    	<!-- template to display single feed element -->
+        <script type="text/x-handlebars-template" id="question-form-template">
+            <form class="cf" id="question-form">
+                <h2>Welcome to <span>Callback Piazza</span>!</h2>
+                <p>Enter a subject and question to get started.</p>
+
+                <div>
+                    <input type="text" name="subject" placeholder="Subject" />
+                </div>
+
+                <div>
+                    <textarea rows="5" cols="40" name="question"
+                        placeholder="Question"></textarea>
+                </div>
+
+                <input type="submit" class="btn" value="Submit" /> 
+            </form>
+        </script>
+
+    	<script type="text/javascript" src="js/handlebars.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
